@@ -18,6 +18,6 @@ for i in new_text:
     form_name = name[0].replace('\n', '').replace(',', '').replace('/', '-')
     form_name = form_name[1:11]
     print(form_name)
-    with open(f'/home/Desktop/Downloads/{form_name}.md', 'a+') as f:
+    with open(f'/home/Desktop/import_to_Obsidian_folder/{form_name}.md', 'a+') as f:
         f.write(i)
 
